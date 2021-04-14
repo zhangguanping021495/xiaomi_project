@@ -1,0 +1,133 @@
+@charset "UTF-8";
+#header {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+}
+#header .header-nav {
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header .nav-list {
+  float: left;
+  width: 770px;
+  height: 100%;
+  background-color: #333;
+}
+#header .nav-list li {
+  float: left;
+  line-height: 50px;
+}
+#header .nav-list li a {
+  color: #B0B0B0;
+}
+#header .nav-list li a:hover {
+  color: #fff;
+}
+#header .nav-list li span {
+  color: #424242;
+  padding: 0 5px;
+}
+#header .nav-list .download {
+  position: relative;
+}
+#header .nav-list .download:hover::before {
+  display: block;
+}
+#header .nav-list .download:hover .download-info {
+  height: 170px;
+}
+#header .nav-list .download::before {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 18px;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  border-top: none;
+}
+#header .nav-list .download .download-info {
+  z-index: 22;
+  position: absolute;
+  text-align: center;
+  left: -35px;
+  background-color: #fff;
+  font-size: 14px;
+  width: 140px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#header .nav-list .download .download-info img {
+  display: block;
+  padding: 15px 10px 0 15px;
+  width: 110px;
+  height: 110px;
+}
+#header .nav-right {
+  float: right;
+  width: 456px;
+  height: 100%;
+}
+#header .nav-right .user {
+  float: right;
+}
+#header .nav-right .user ul {
+  width: 170px;
+  height: 100%;
+  line-height: 50px;
+}
+#header .nav-right .user ul li {
+  float: left;
+}
+#header .nav-right .user ul li a {
+  color: #b0b0b0;
+}
+#header .nav-right .user ul li a:hover {
+  color: #fff;
+}
+#header .nav-right .user ul li span {
+  color: #424242;
+  padding: 0 8px;
+}
+#header .nav-right .shop {
+  z-index: 22;
+  position: relative;
+  float: right;
+  width: 130px;
+  height: 50px;
+  text-align: center;
+  background-color: #424242;
+}
+#header .nav-right .shop:hover {
+  background-color: #fff;
+}
+#header .nav-right .shop:hover a {
+  color: #FFCEAC;
+}
+#header .nav-right .shop:hover .shop-info {
+  height: 120px;
+}
+#header .nav-right .shop .shop-info {
+  position: absolute;
+  left: -170px;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  text-align: center;
+  line-height: 120px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+#header .nav-right .shop a {
+  line-height: 50px;
+  font-size: 14px;
+  color: #b0b0b0;
+}

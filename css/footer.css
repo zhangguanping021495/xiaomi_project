@@ -1,0 +1,290 @@
+@charset "UTF-8";
+#footer {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+#footer .service {
+  width: 100%;
+  height: 335px;
+  margin-top: 30px;
+  background-color: #fff;
+}
+#footer .service .foot-service {
+  width: 100%;
+  height: 80px;
+}
+#footer .service .foot-service .foot-service-list {
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#footer .service .foot-service .foot-service-list li {
+  position: relative;
+  float: left;
+  line-height: 72px;
+  padding: 0 56px;
+}
+#footer .service .foot-service .foot-service-list li:hover .iconfont {
+  color: #ff6700;
+}
+#footer .service .foot-service .foot-service-list li:hover span {
+  color: #ff6700;
+}
+#footer .service .foot-service .foot-service-list li a i {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#footer .service .foot-service .foot-service-list li a span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#footer .service .foot-service .foot-service-list li a .link {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  width: 1px;
+  height: 28px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#footer .service .foot-service-intro {
+  width: 100%;
+  height: 255px;
+}
+#footer .service .foot-service-intro .foot-intro {
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-left {
+  position: relative;
+  float: left;
+  width: 961px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-left::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 125px;
+  top: 48px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-left dl {
+  width: 160px;
+  height: 116px;
+  margin-top: 20px;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-left dl dt {
+  margin: 30px 0;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-left dl dd {
+  font-weight: lighter;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-left dl dd:hover a {
+  color: #ff6700;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-left dl dd a {
+  color: rgba(0, 0, 0, 0.9);
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-left dl dd + dd {
+  margin-top: 10px;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right {
+  float: right;
+  width: 265px;
+  height: 100%;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact {
+  padding-top: 45px;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact li {
+  padding: 0 60px;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact li + li {
+  margin-top: 11px;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .contact-num {
+  font-size: 21px;
+  color: #ff6700;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .contact-time {
+  color: rgba(0, 0, 0, 0.6);
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .contact-service {
+  text-align: center;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .contact-service .iconfont {
+  color: #ff6700;
+  font-size: 12px;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .contact-service .service {
+  font-size: 14px;
+  color: #ff6700;
+  padding: 3px 20px;
+  border: 1px solid #ff6700;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .contact-service .service:hover {
+  background-color: #ff6700;
+  transition: 0.8s;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .contact-service .service:hover .iconfont {
+  color: #fff;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .contact-service .service:hover .pople-service {
+  color: #fff;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi {
+  position: relative;
+  margin-top: 12px;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi span {
+  color: rgba(0, 0, 0, 0.6);
+  vertical-align: middle;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weixin-ewm {
+  z-index: 22;
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weixin-ewm img {
+  width: 150px;
+  height: 150px;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weibo {
+  color: rgba(0, 0, 0, 0.7);
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weibo:hover {
+  color: #ff6700;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weibo i {
+  font-size: 25px;
+  vertical-align: middle;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weixin {
+  color: rgba(0, 0, 0, 0.7);
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weixin:hover {
+  color: #ff6700;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weixin:hover + .weixin-ewm {
+  display: block;
+}
+#footer .service .foot-service-intro .foot-intro .foot-intro-right .contact .attention-mi .weixin i {
+  font-size: 25px;
+  vertical-align: middle;
+}
+#footer .message {
+  width: 1226px;
+  margin: 0 auto;
+}
+#footer .message .left {
+  float: left;
+  width: 60px;
+  height: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+#footer .message .left img {
+  width: 64px;
+}
+#footer .message .right {
+  float: right;
+  width: 1148px;
+  height: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+#footer .message .right .right-nav li {
+  float: left;
+}
+#footer .message .right .right-nav li a {
+  color: rgba(0, 0, 0, 0.6);
+}
+#footer .message .right .right-nav li a:hover {
+  color: #ff6700;
+}
+#footer .message .right .right-nav li span {
+  padding: 0 2px;
+}
+#footer .message .right .right-info1 li {
+  float: left;
+  padding: 0 2px;
+  color: rgba(0, 0, 0, 0.3);
+}
+#footer .message .right .right-info1 li a {
+  color: rgba(0, 0, 0, 0.3);
+}
+#footer .message .right .right-info1 li a:hover {
+  color: #ff6700;
+}
+#footer .message .right .right-info2 li {
+  float: left;
+  padding: 0 2px;
+  color: rgba(0, 0, 0, 0.3);
+}
+#footer .message .right .right-info2 li a {
+  color: rgba(0, 0, 0, 0.3);
+}
+#footer .message .right .right-info2 li a:hover {
+  color: #ff6700;
+}
+#footer .message .right .right-info3 li {
+  float: left;
+  padding: 0 2px;
+  color: rgba(0, 0, 0, 0.3);
+}
+#footer .message .right .right-info3 li a {
+  color: rgba(0, 0, 0, 0.3);
+}
+#footer .message .right .right-info3 li a:hover {
+  color: #ff6700;
+}
+#footer .message .right .right-info4 li {
+  float: left;
+  padding: 0 2px;
+  color: rgba(0, 0, 0, 0.3);
+}
+#footer .message .right .right-info4 li a {
+  color: rgba(0, 0, 0, 0.3);
+}
+#footer .message .right .right-info4 li a:hover {
+  color: #ff6700;
+}
+#footer .message .right .right-info5 li {
+  float: left;
+  padding: 5px 2px;
+}
+#footer .message .right .right-info5 li a .img-trust {
+  width: 86px;
+  height: 28px;
+}
+#footer .message .right .right-info5 li a .img-time {
+  width: 100px;
+  height: 35px;
+}
+#footer .message .right .right-info5 li + li {
+  margin-left: 3px;
+}
+#footer .message .right ul + ul {
+  margin-top: 3px;
+}
+#footer .foot-bottom {
+  width: 100%;
+  height: 100px;
+  font-size: 18px;
+  line-height: 70px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3);
+}
